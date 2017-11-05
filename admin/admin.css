@@ -1,0 +1,316 @@
+*{ margin:0; padding:0 }
+body{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+}
+#wapper{
+	position:relative;
+	margin:20px auto;
+	width:100%;
+}
+#top{
+	width:80%;
+	height:100px;
+	float:left;	
+	margin-left:10%;
+}
+#left{
+	float:left;
+	margin-left:10%;
+	width:20%;
+	height:500px;
+}
+#sologan{
+	color:white;
+	text-align:center;
+	padding-top:30px;
+	float:left;
+	width:75%;
+	height:70px;
+	background:#578eb7;
+}
+#main{
+	float:left;
+	width:59.8%;
+	border:1px solid black;
+	height:auto;
+	min-height: 700px;
+	margin-left:2px;
+}
+#logout{
+	float:left;
+	width:25%;
+	height:70px;
+	text-align:center ;
+	color:#00F;
+	text-justify:auto;
+	background:#f0f0f0;
+	padding-top:30px
+}
+#left p
+{
+	float:left;	
+	background:#578eb7;
+	padding:10px;
+	color:white;
+	display:block;
+	font-weight:bold;
+	width:93.2%;	
+	margin-top:5px;
+}
+#left ul{
+	float:left;
+	display:block;
+	list-style:none;
+	background:#f0f0f0;
+	width:100%;
+
+}
+#left ul li{
+	padding:10px;
+	text-decoration:none;
+}
+#left ul li a{
+	text-decoration:none;
+	color:#666;
+}
+#left ul li a:hover{
+	text-decoration:underline;
+	color:#0000FF;
+}
+#adlog{
+	margin: 20px auto;
+	background:#f0f0f0;
+	width:20%;
+	height:150px;
+	padding:10px;
+}
+.error{
+	color:red;
+	padding-left: 10px;
+}
+#adlog p{
+	width:100%;
+	float:left;
+	display:block;
+	margin:2px;
+}
+#gioithieu p{
+	display: block;
+	margin:5px 0px;
+	width:100%;
+	padding:5px;
+	float:left;
+	font-family: "Times New Roman", Times, serif;
+}
+#gioithieu p label{
+
+	float:left;
+	width:20%;
+}
+#gioithieu p input {
+	float:left;
+}
+#gioithieu p textarea{
+	float:left;	
+}
+#type{
+	margin:20px 10px 20px 80px;
+}
+#typetree{
+	margin:20px 10px 20px 80px;
+}
+
+.rowtitle{
+	background:#578eb7; color:white; text-align:center; font-size:18px;
+}
+.row{
+	text-align:center;
+}
+.rowtitle1{
+	background:#578eb7; color:white; text-align:center; font-size:18px;
+}
+
+#newtype{
+	float:left;
+	margin:50px;
+	width:70%;
+	background:#f0f0f0;
+	padding:20px;
+}
+#newtypetree{
+	float:left;
+	margin:50px;
+	width:70%;
+	background:#f0f0f0;
+	padding:20px;
+}
+#cuslist{
+	margin-top:30px;
+}
+#cuslist1{
+	margin-top:30px;
+}
+#add{
+	margin: 20px auto;
+	margin-left:20px;
+	border:1px solid #f0f0f0;
+	border-radius: 5px;
+	width:90%;
+	float:left;
+}
+#add p{
+	display: block;
+	margin:5px 0px;
+	width:100%;
+	padding:5px;
+	float:left;
+	font-family: "Times New Roman", Times, serif;
+}
+#add p label{
+
+	float:left;
+	width:20%;
+}
+#add p input {
+	float:left;
+}
+#add p textarea{
+	float:left;	
+}
+#addcay{
+	margin: 20px auto;
+	margin-left:20px;
+	border:1px solid #f0f0f0;
+	border-radius: 5px;
+	width:90%;
+	float:left;
+}
+#addcay p{
+	display: block;
+	margin:5px 0px;
+	width:100%;
+	padding:5px;
+	float:left;
+}
+#addcay p label{
+
+	float:left;
+	width:20%;
+}
+#addcay p input {
+	float:left;
+}
+#addcay p textarea{
+	float:left;	
+}
+#phantrang
+{
+	margin:10px;
+	float:right;	}
+#phantrang ul li{
+	float:left;
+	border:1px solid #666;list-style:none; 
+	font-size:16px;
+	margin:2px;
+	background:#578eb7;
+}
+.current{
+	font-weight:bold;
+	color:black;	
+	padding:1px 6px;
+	border:1px solid #666;list-style:none; 
+	font-size:16px;
+	margin:2px;
+	background:#578eb7;
+	width:.5em;
+	
+		
+}
+#phantrang ul li a{
+	color:#FFF;
+	padding:2px 6px;
+	
+}
+#phantrang ul li a:hover{
+	background:#f8f8f8;
+	color:#578eb7;	
+}
+#hondonct 
+{
+	float:left;
+	width:100%;
+	margin-top:20px;
+}
+#thongtinhd
+{
+	float:left;
+	border:1px solid #000;
+	width:31%;
+	margin-left:1%;
+}
+
+#thongtinkh
+{
+	float:left;
+	border:1px solid #000;
+	width:32%;
+	margin:0% 0% 0% 1.5%;
+}
+#thongtintk
+{
+	float:right;
+	border:1px solid #000;
+	width:31%;
+	margin:0% 1% 0% 0%;
+}
+#thongtinsp
+{
+	float:left;
+	border:1px solid #000;
+	width:100%;
+	margin:2% 0 0 0;
+}
+#hondonct p
+{
+	margin:0px 5px 0px 5px;
+	float:left;
+	width:100%;
+}
+#hondonct label
+{
+	font-weight:bold;
+	display:block;
+	float:left;
+	clear:left;
+	width:auto;
+}
+#hondonct1 p
+{
+	margin:0px 5px 0px 5px;
+	float:left;
+	width:100%;
+}
+#hondonct1 label
+{
+	font-weight:bold;
+	display:block;
+	float:left;
+	clear:left;
+	width:auto;
+}
+#index {
+	float:left;
+	width:100%;
+}
+#index p
+{
+	padding:10px 0px;
+	margin:10px 0px;
+	float:left;
+	text-align:center;
+	width:100%;
+	display:block;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+}
